@@ -1,0 +1,230 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>How to Stake RMT Tokens - RIME Protocol Documentation</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../introduction.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../introduction/overview.html"><strong aria-hidden="true">1.1.</strong> Overview of RIME</a></li><li class="chapter-item expanded "><a href="../introduction/features.html"><strong aria-hidden="true">1.2.</strong> Key Features and Benefits</a></li><li class="chapter-item expanded "><a href="../introduction/partnerships.html"><strong aria-hidden="true">1.3.</strong> Partnerships (Conflux and CNHC)</a></li></ol></li><li class="chapter-item expanded "><a href="../getting_started.html"><strong aria-hidden="true">2.</strong> Getting Started</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../getting_started/connect_wallet.html"><strong aria-hidden="true">2.1.</strong> How to Connect a Wallet</a></li><li class="chapter-item expanded "><a href="../getting_started/supported_wallets.html"><strong aria-hidden="true">2.2.</strong> Supported Wallets</a></li><li class="chapter-item expanded "><a href="../getting_started/network_settings.html"><strong aria-hidden="true">2.3.</strong> Network Settings</a></li></ol></li><li class="chapter-item expanded "><a href="../rime_protocol.html"><strong aria-hidden="true">3.</strong> RIME Protocol</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../rime_protocol/borrowing_rusd.html"><strong aria-hidden="true">3.1.</strong> Borrowing RUSD</a></li><li class="chapter-item expanded "><a href="../rime_protocol/collateral_requirements.html"><strong aria-hidden="true">3.2.</strong> Collateral Requirements (CFX and CNHC)</a></li><li class="chapter-item expanded "><a href="../rime_protocol/liquidation.html"><strong aria-hidden="true">3.3.</strong> Liquidation Process</a></li><li class="chapter-item expanded "><a href="../rime_protocol/stability_pool.html"><strong aria-hidden="true">3.4.</strong> Stability Pool</a></li><li class="chapter-item expanded "><a href="../rime_protocol/rmt_token.html"><strong aria-hidden="true">3.5.</strong> RMT Token and its Utilities</a></li></ol></li><li class="chapter-item expanded "><a href="../guides_tutorials.html"><strong aria-hidden="true">4.</strong> Guides and Tutorials</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../guides_tutorials/borrow_rusd.html"><strong aria-hidden="true">4.1.</strong> How to Borrow RUSD</a></li><li class="chapter-item expanded "><a href="../guides_tutorials/manage_collateral.html"><strong aria-hidden="true">4.2.</strong> How to Manage Collateral</a></li><li class="chapter-item expanded "><a href="../guides_tutorials/stability_pool.html"><strong aria-hidden="true">4.3.</strong> How to Participate in the Stability Pool</a></li><li class="chapter-item expanded "><a href="../guides_tutorials/stake_rmt.html" class="active"><strong aria-hidden="true">4.4.</strong> How to Stake RMT Tokens</a></li></ol></li><li class="chapter-item expanded "><a href="../integrations_tools.html"><strong aria-hidden="true">5.</strong> Integrations and Tools</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../integrations_tools/partner_wallets.html"><strong aria-hidden="true">5.1.</strong> Partner Wallets and Interfaces</a></li></ol></li><li class="chapter-item expanded "><a href="../faq.html"><strong aria-hidden="true">6.</strong> Frequently Asked Questions (FAQ)</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">RIME Protocol Documentation</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h2 id="how-to-stake-rmt-tokens"><a class="header" href="#how-to-stake-rmt-tokens">How to Stake RMT Tokens</a></h2>
+<p>Staking your RMT tokens can provide you with additional rewards and help support the RIME ecosystem. Follow these steps to stake your RMT tokens:</p>
+<h3 id="1-access-the-rime-platform"><a class="header" href="#1-access-the-rime-platform">1. Access the RIME Platform</a></h3>
+<p>Visit the RIME platform at <a href="https://rime.finance">https://rime.finance</a>. Navigate to the staking interface.</p>
+<h3 id="2-approve-rmt-tokens-for-staking"><a class="header" href="#2-approve-rmt-tokens-for-staking">2. Approve RMT Tokens for Staking</a></h3>
+<p>Before staking, you need to approve the RMT tokens for staking. Follow these steps:</p>
+<ol>
+<li>Input the amount of RMT tokens you want to stake.</li>
+<li>Click on the &quot;Approve&quot; button.</li>
+<li>Sign the approval transaction in your wallet. Once the transaction is successful, you will be able to proceed with staking.</li>
+</ol>
+<h3 id="3-stake-rmt-tokens"><a class="header" href="#3-stake-rmt-tokens">3. Stake RMT Tokens</a></h3>
+<p>Now that your RMT tokens are approved for staking, follow these steps to stake them:</p>
+<ol>
+<li>Input the amount of RMT tokens you want to stake.</li>
+<li>Review the estimated rewards and confirm the transaction.</li>
+<li>Sign the staking transaction in your wallet. Once the transaction is successful, your staked RMT amount and estimated rewards will be displayed.</li>
+</ol>
+<h3 id="4-monitor-your-staking-position"><a class="header" href="#4-monitor-your-staking-position">4. Monitor Your Staking Position</a></h3>
+<p>Keep an eye on your staked RMT amount, earned rewards, and the overall status of the staking pool. Your rewards will be accrued over time as more users participate in staking and the RIME ecosystem grows.</p>
+<h3 id="5-claim-staking-rewards"><a class="header" href="#5-claim-staking-rewards">5. Claim Staking Rewards</a></h3>
+<p>You can claim your staking rewards at any time. Follow these steps:</p>
+<ol>
+<li>Click on the &quot;Claim&quot; button in the staking interface.</li>
+<li>Review the rewards amount and confirm the transaction.</li>
+<li>Sign the transaction in your wallet. Once the transaction is successful, the claimed rewards will be sent to your wallet.</li>
+</ol>
+<h3 id="6-unstake-rmt-tokens"><a class="header" href="#6-unstake-rmt-tokens">6. Unstake RMT Tokens</a></h3>
+<p>If you wish to unstake your RMT tokens, follow these steps:</p>
+<ol>
+<li>Input the amount of RMT tokens you want to unstake.</li>
+<li>Review the withdrawal amount and any unclaimed rewards.</li>
+<li>Confirm the transaction and sign it in your wallet. Once the transaction is successful, the unstaked RMT tokens will be sent to your wallet, and any unclaimed rewards will be automatically claimed.</li>
+</ol>
+<p>By staking your RMT tokens, you not only support the RIME ecosystem but also earn additional rewards. Monitor your staking position regularly and claim your rewards as needed.</p>
+<p>Visit the RIME platform at <a href="https://rime.finance">https://rime.finance</a> to stay informed about your staking position, rewards, and any updates in the protocol.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../guides_tutorials/stability_pool.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="../integrations_tools.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../guides_tutorials/stability_pool.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="../integrations_tools.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </body>
+</html>
