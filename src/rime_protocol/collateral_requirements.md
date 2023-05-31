@@ -1,12 +1,12 @@
-# Collateral Requirements (CFX and CNHC)
+# Collateral Requirements (CFX)
 
-To borrow RUSD through the RIME Protocol, users must provide collateral in the form of CFX or CNHC. The collateral requirements are designed to ensure the stability and security of the RUSD stablecoin and protect the interests of both borrowers and the RIME ecosystem.
+To borrow RUSD through the RIME Protocol, users must provide collateral in the form of CFX. The collateral requirements are designed to ensure the stability and security of the RUSD stablecoin and protect the interests of both borrowers and the RIME ecosystem.
 
 ## Minimum Collateral Ratio
 
 The RIME Protocol requires borrowers to maintain a minimum collateral ratio for their loans. This ratio is calculated as the total value of the collateral divided by the amount of RUSD borrowed. The minimum collateral ratio ensures that loans are overcollateralized, providing a buffer against market volatility and reducing the risk of undercollateralized loans.
 
-For example, if the minimum collateral ratio is 150%, and a user wants to borrow 100 RUSD, they must provide at least 150 USD worth of CFX or CNHC as collateral.
+For example, if the minimum collateral ratio is 150%, and a user wants to borrow 100 RUSD, they must provide at least 150 USD worth of CFX as collateral.
 
 ## Liquidation
 

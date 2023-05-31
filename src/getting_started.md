@@ -1,12 +1,12 @@
 # Getting Started with RIME
 
-This guide will walk you through the process of using RIME to borrow RUSD using CFX or CNHC as collateral. By following these steps, you'll be able to interact with the RIME Protocol and manage your Trove.
+This guide will walk you through the process of using RIME to borrow RUSD using CFX as collateral. By following these steps, you'll be able to interact with the RIME Protocol and manage your Trove.
 
 ## Prerequisites
 
 Before getting started, make sure you have the following:
 
-- A Conflux-compatible wallet, such as ConfluxPortal, set up and funded with CFX or CNHC.
+- A Conflux-compatible wallet, such as ConfluxPortal, set up and funded with CFX.
 - A basic understanding of the RIME Protocol's features and components.
 
 ## Step 1: Connect Your Wallet
@@ -19,7 +19,7 @@ Before getting started, make sure you have the following:
 ## Step 2: Deposit Collateral and Borrow RUSD
 
 1. Click on the "Open Trove" button in the RIME web app.
-2. Select the type of collateral you'd like to deposit: CFX or CNHC.
+2. Select the type of collateral you'd like to deposit: CFX.
 3. Enter the amount of collateral you wish to deposit.
 4. Enter the amount of RUSD you'd like to borrow.
 5. Review the collateral ratio and ensure it meets the minimum requirement.

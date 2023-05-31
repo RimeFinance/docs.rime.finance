@@ -12,7 +12,7 @@ Visit the RIME platform at [https://rime.finance](https://rime.finance). Navigat
 
 ### 3. Select Collateral
 
-Choose between CFX and CNHC as your collateral.
+Choose between CFX as your collateral.
 
 ### 4. Set Collateral Ratio
 

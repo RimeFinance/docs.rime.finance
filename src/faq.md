@@ -4,11 +4,11 @@ This section addresses some of the most common questions and concerns related to
 
 ### 1. What is the RIME protocol?
 
-RIME is a decentralized lending protocol that allows users to obtain interest-free loans in RUSD by depositing CFX and CNHC as collateral. It is designed to provide users with financial flexibility and facilitate the growth of the Conflux ecosystem.
+RIME is a decentralized lending protocol that allows users to obtain interest-free loans in RUSD by depositing CFX as collateral. It is designed to provide users with financial flexibility and facilitate the growth of the Conflux ecosystem.
 
 ### 2. How does RIME differ from Liquity?
 
-While RIME is inspired by Liquity, it has several key differences. RIME allows users to deposit both CFX and CNHC as collateral to obtain RUSD loans. Additionally, CNHC is an offshore RMB stablecoin, which attracts significant market attention.
+While RIME is inspired by Liquity, it has several key differences. RIME allows users to deposit both CFX as collateral to obtain RUSD loans.
 
 ### 3. What are the collateral requirements for RIME?
 

@@ -8,7 +8,7 @@ Visit the RIME platform at [https://rime.finance](https://rime.finance). Navigat
 
 ### 2. View Your Loan Details
 
-Check your current loan details, including the borrowed RUSD amount, collateralization ratio, and collateral type (CFX or CNHC).
+Check your current loan details, including the borrowed RUSD amount, collateralization ratio, and collateral type (CFX).
 
 ### 3. Add Collateral
 

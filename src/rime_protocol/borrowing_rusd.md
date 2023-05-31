@@ -1,12 +1,12 @@
 ### Borrowing RUSD
 
-RUSD is the stablecoin issued by the RIME Protocol. It's designed to maintain a stable value of 1 USD. Users can borrow RUSD by pledging CFX and CNHC as collateral, providing them with the flexibility to leverage their assets without the need to sell them.
+RUSD is the stablecoin issued by the RIME Protocol. It's designed to maintain a stable value of 1 USD. Users can borrow RUSD by pledging CFX as collateral, providing them with the flexibility to leverage their assets without the need to sell them.
 
 #### Steps to Borrow RUSD
 
 1. **Connect your wallet**: Visit the RIME Protocol platform at [https://rime.finance](https://rime.finance) and connect your supported wallet (e.g., MetaMask, imToken, Fluent Wallet).
 
-2. **Choose collateral type**: Select the type of collateral you'd like to pledge, either CFX or CNHC. Ensure that you have sufficient funds in your wallet to cover the collateral and any associated transaction fees.
+2. **Choose collateral type**: Select the type of collateral you'd like to pledge, either CFX. Ensure that you have sufficient funds in your wallet to cover the collateral and any associated transaction fees.
 
 3. **Enter the amount of RUSD to borrow**: Specify the amount of RUSD you'd like to borrow. Keep in mind that the total value of your collateral must be greater than the minimum collateral ratio required by the RIME Protocol (e.g., 150%).
 
